@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 6, 97);
+    color: white;
+    padding: 20px 40px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.part-1{
+    background-color: rgb(236, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 25px;
+    text-wrap: wrap;
+}
+.content{
+    max-width: 400px;
+}
+ img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px black;
+}
+button{
+    background-color: rgb(92, 92, 224);
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color:rgba(2, 2, 31, 0.847)
+}
+.part-1 h1{
+    font-size: 36px;
+    margin-bottom:16px ;
+}
+.part-1 p{
+    font-size: 22px;
+    margin-bottom:30px ;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    gap: 25px;
+    background-color: white;
+    text-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    
+}
+.feature{
+    flex: 1 1 250px;
+    background-color: rgb(236, 226, 226);
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+.feature:hover{
+    transform: scale(1.5,1.5);
+}
+.product-gallary{
+    background-color :  rgb(191, 191, 236);
+    padding: 40px 20px;
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+     text-align: center;
+    
+}
+.product-gallary h2{
+    background-color:rgb(231,231 , 241) ;
+    color: black;
+
+}
+.product-card{
+    background-color: rgb(236, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px  white;
+    transition: .3s ease;
+}
+.product-card:hover{
+    transform: scale(1.1,1.1);
+}
+.prefoot{
+    background-color: rgba(0, 0, 255, 0.651);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    align-items: center;
+    height: ;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
